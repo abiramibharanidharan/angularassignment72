@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title :string;
+  studentName:any[];  
+  
+  constructor()
+  {
+    this.title= 'Student Table';
+    this.studentName=['Abirami','Anurag','Nikil'];
+  }
+
 }
